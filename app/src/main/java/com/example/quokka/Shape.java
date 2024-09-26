@@ -5,9 +5,9 @@ import android.graphics.Color;
 public abstract class Shape {
     private Integer x;
     private Integer y;
-    private Color color;
+    private String color;
 
-    public Shape(Integer x, Integer y, Color color) {
+    public Shape(Integer x, Integer y, String color) {
         this.x = x;
         this.y = y;
         this.color = color;
