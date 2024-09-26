@@ -3,7 +3,11 @@ package com.example.quokka;
 public abstract class Shape {
     private Integer x;
     private Integer y;
-    private String color;
+<<<<<<< HEAD
+   // private String color;
+=======
+    private String color = "magenta";
+>>>>>>> origin
 
     public Shape(Integer x, Integer y) {
         this.x = x;
