@@ -5,7 +5,7 @@ import android.graphics.Color;
 public abstract class Shape {
     private Integer x;
     private Integer y;
-    private String color;
+    private String color = "magenta";
 
     public Shape(Integer x, Integer y, String color) {
         this.x = x;
@@ -13,3 +13,5 @@ public abstract class Shape {
         this.color = color;
     }
 }
+
+
