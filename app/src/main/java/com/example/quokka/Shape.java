@@ -11,12 +11,4 @@ public abstract class Shape {
     }
 }
 
-public abstract class Square extends Shape{
-    private int side;
 
-    public Square(int side){
-        this.side = side;
-    }
-
-
-}
